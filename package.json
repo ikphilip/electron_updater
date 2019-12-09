@@ -1,14 +1,16 @@
 {
   "name": "electron_updater",
   "appId": "com.InteractiveKnowledge.electronUpdater",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a test app for the electron updater",
   "main": "index.js",
   "repository": "https://github.com/ikphilip/electron_updater",
   "author": "Philip Curley <ikphilip@interactiveknowledge.com>",
   "license": "MIT",
   "scripts": {
-    "build-release-windows": "electron-builder -w"
+    "build-release-windows": "electron-builder -w",
+    "start": "ENVIRONMENT=production yarn electron .",
+    "start-dev": "yarn electron ."
   },
   "devDependencies": {
     "electron": "^7.1.3",
