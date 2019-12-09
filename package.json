@@ -1,0 +1,17 @@
+{
+  "name": "electron_updater",
+  "appId": "com.InteractiveKnowledge.electronUpdater",
+  "version": "0.0.1",
+  "description": "This is a test app for the electron updater",
+  "main": "index.js",
+  "repository": "https://github.com/ikphilip/electron_updater",
+  "author": "Philip Curley <ikphilip@interactiveknowledge.com>",
+  "license": "MIT",
+  "scripts": {
+    "build-release-windows": "electron-builder -w"
+  },
+  "devDependencies": {
+    "electron": "^7.1.3",
+    "electron-builder": "^21.2.0"
+  }
+}
