@@ -52,7 +52,7 @@ app.on('ready', () => {
 
   window.removeMenu()
 
-  window.loadURL('https://interactiveknowledge.com')
+  window.loadURL('https://drupal.org')
 
   window.once('ready-to-show', () => {
     window.show()

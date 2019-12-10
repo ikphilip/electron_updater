@@ -1,7 +1,7 @@
 {
   "name": "electron_updater",
   "appId": "com.InteractiveKnowledge.electronUpdater",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a test app for the electron updater",
   "main": "index.js",
   "repository": "https://github.com/ikphilip/electron_updater",
