@@ -8,7 +8,7 @@ log.info('App is starting.')
 app.on('ready', () => {
   log.info('App is ready!')
 
-  if (process.env.ENV === 'production') {
+  if (process.env.ENV !== 'development') {
     log.info('Check for updates.')
 
     autoUpdater.on('update-downloaded', (event, releaseNotes, releaseName) => {
