@@ -1,6 +1,6 @@
 const { app, BrowserWindow, autoUpdater, dialog } = require('electron')
 const log = require('electron-log')
-const server = 'https://pgc-electron-app.heroku.com'
+const server = 'https://pgc-electron-app.herokuapp.com'
 const feed = `${server}/update/${process.platform}/${app.getVersion()}`
 
 log.info('App is starting.')
