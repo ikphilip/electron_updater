@@ -10,7 +10,7 @@
     "build-release": "electron-builder -w",
     "build-release-windows": "electron-builder -w",
     "start": "ENV=production yarn electron .",
-    "start-dev": "ENV=development yarn electron ."
+    "start-dev": "yarn electron ."
   },
   "dependencies": {
     "electron-log": "^4.0.0",
@@ -23,9 +23,7 @@
   "build": {
     "appId": "com.InteractiveKnowledge.electronUpdater",
     "win": {
-      "publish": [
-        "github"
-      ]
+      "target": "squirrel"
     }
   }
 }
