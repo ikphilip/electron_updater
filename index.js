@@ -15,7 +15,7 @@ app.on('ready', () => {
       const dialogOpts = {
         type: 'info',
         buttons: ['Restart', 'Later'],
-        title: 'Application Update',
+        title: 'An Update is Available',
         message: process.platform === 'win32' ? releaseNotes : releaseName,
         detail: 'A new version has been downloaded. Restart the application to apply the updates.'
       }
@@ -23,6 +23,14 @@ app.on('ready', () => {
       dialog.showMessageBox(dialogOpts).then((returnValue) => {
         if (returnValue.response === 0) autoUpdater.quitAndInstall()
       })
+    })
+
+    autoUpdater.on('update-available', () => {
+      log.info('Update is available.')
+    })
+
+    autoUpdater.on('update-not-available', () => {
+      log.info('No update available')
     })
 
     autoUpdater.on('error', message => {
