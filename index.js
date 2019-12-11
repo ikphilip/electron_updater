@@ -32,10 +32,8 @@ app.on('ready', () => {
 
     autoUpdater.setFeedURL(feed)
 
-    setInterval(() => {
-      log.info('Checking...')
-      autoUpdater.checkForUpdates()
-    }, 5000)
+    // Check once
+    autoUpdater.checkForUpdates()
   } else {
     log.info('Will not check for updates.')
   }

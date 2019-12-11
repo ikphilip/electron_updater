@@ -1,6 +1,6 @@
 {
   "name": "electron_updater",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This is a test app for the electron updater",
   "main": "index.js",
   "repository": "https://github.com/ikphilip/electron_updater",
@@ -25,6 +25,9 @@
     "appId": "com.InteractiveKnowledge.electronUpdater",
     "win": {
       "target": "squirrel"
+    },
+    "windowsSquirrel": {
+      "remoteReleases": "https://pgc-electron-app.herokuapp.com/update/win/0.1.0"
     }
   }
 }
