@@ -26,7 +26,7 @@
     "win": {
       "target": "squirrel"
     },
-    "windowsSquirrel": {
+    "squirrelWindows": {
       "remoteReleases": "https://pgc-electron-app.herokuapp.com/update/win/0.1.0"
     }
   }
