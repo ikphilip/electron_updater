@@ -18,7 +18,8 @@
   },
   "devDependencies": {
     "electron": "^7.1.3",
-    "electron-builder": "^21.2.0"
+    "electron-builder": "^21.2.0",
+    "electron-builder-squirrel-windows": "^22.2.0"
   },
   "build": {
     "appId": "com.InteractiveKnowledge.electronUpdater",
