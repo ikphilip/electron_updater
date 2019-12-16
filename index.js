@@ -146,7 +146,7 @@ app.on('ready', () => {
 
   window.removeMenu()
 
-  window.loadURL('http://drupal.org')
+  window.loadURL('http://interactiveknowledge.com')
 
   window.once('ready-to-show', () => {
     window.show()
