@@ -136,7 +136,7 @@ app.on('ready', () => {
 
   window.removeMenu()
 
-  window.loadURL('http://ubuntu.com')
+  window.loadURL('http://interactiveknowledge.com')
 
   window.once('ready-to-show', () => {
     window.show()
