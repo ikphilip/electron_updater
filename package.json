@@ -1,6 +1,6 @@
 {
   "name": "electron_updater",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "This is a test app for the electron updater",
   "main": "index.js",
   "repository": "https://github.com/ikphilip/electron_updater",
@@ -14,8 +14,7 @@
   },
   "dependencies": {
     "electron-log": "^4.0.0",
-    "electron-squirrel-startup": "^1.0.0",
-    "electron-updater": "^4.2.0"
+    "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
     "electron": "^7.1.3",

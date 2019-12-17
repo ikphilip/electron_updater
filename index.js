@@ -7,7 +7,7 @@ if (require('electron-squirrel-startup')) {
   log.info('is not true')
 }
 
-const { app, BrowserWindow, autoUpdater, dialog } = require('electron')
+const { app, BrowserWindow, autoUpdater } = require('electron')
 const server = 'https://pgc-electron-app.herokuapp.com'
 const feed = `${server}/update/${process.platform}/${app.getVersion()}`
 
