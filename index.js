@@ -131,7 +131,6 @@ app.on('ready', () => {
   webContents.on('did-finish-load', () => {
     webContents.zoomFactor = 1
     webContents.setVisualZoomLevelLimits(1, 1)
-    webContents.setLayoutZoomLevelLimits(0, 0)
   })
 
   window.removeMenu()
